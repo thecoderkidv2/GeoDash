@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Pusab";
+    src: url("./0Pusab.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Pusab", arial;
+}
