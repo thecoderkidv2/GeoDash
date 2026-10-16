@@ -1,11 +1,35 @@
 @font-face {
     font-family: "Pusab";
-    src: url("./0Pusab.otf") format("opentype");
+    src: url("0Pusab.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+* {
+    user-select: none;
+}
+
+*:not(button) {
+    pointer-events: none;
+}
+
 body {
+    width: 100%;
+    height: 100%;
     font-family: "Pusab", arial;
+    background-image: url(images/png/game_bg_01_001.png);
+}
+
+#i23579 {
+    position: absolute;
+    left: 1%;
+    bottom: 3%;
+}
+
+#i25789 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
 }
